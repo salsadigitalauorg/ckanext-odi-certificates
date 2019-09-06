@@ -1,0 +1,4 @@
+include README.rst
+include LICENSE
+include requirements.txt
+recursive-include ckanext/odi-certificates *.html *.json *.js *.less *.css *.mo
