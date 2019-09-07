@@ -5,10 +5,6 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-# Get the long description from the relevant file
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
-
 setup(
     name='''ckanext-odi-certificates''',
 
@@ -18,14 +14,14 @@ setup(
     version='0.0.1',
 
     description='''''',
-    long_description=long_description,
+    long_description='''''',
 
     # The project's main homepage.
     url='https://github.com//ckanext-odi-certificates',
 
     # Author details
-    author='''''',
-    author_email='''''',
+    author='''Salsa Digital''',
+    author_email='''mark.calvert@salsadigital.com.au''',
 
     # Choose your license
     license='AGPL',
@@ -80,8 +76,8 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        odi-certificates=ckanext.odi-certificates.plugin:Odi-CertificatesPlugin
-
+        odi_certificates=ckanext.odi_certificates.plugin:ODICertificatesPlugin
+        
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan
     ''',
