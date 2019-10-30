@@ -1,6 +1,6 @@
-=============
+--------------------------
 ckanext-odi-certificates
-=============
+--------------------------
 
 CKAN extension that will make an API call to ODI (https://certificates.theodi.org/en) to verify if the dataset has been certified and to display the Open Data Certificate badge image
 
